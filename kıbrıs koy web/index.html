@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Kıbrıs Köy Derneği</title>
+  </head>
+
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo"><a href="#"><img src="background/logo1.png" alt="logo_img" width="100" height="100"></a>&nbsp; </h2>
+        <div class="toggle"></div>
+      </header>
+     <video src = "background/redPanda.mp4" muted loop autoplay></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2> Kıbrıs Köy Derneği</h2>
+        <h3> Resmi Web Sitesi</h3>
+        <p>Kıbrıs, Osmanlı kayıtlarında 1462 yılından kalma kayıtlarda belgelerde adına rastlanılmakta olup o yıllarda adı kayıtlarda Kırbız olarak geçmektedir. Türk Tarih Kurumu'nda bu bölge halkının 3 kabileden oluştuğu (Hemiler, Cöcükler, Karaağalar) belirtilmektedir. Söz konusu kabilelerin, Oğuzların Bozok koluna mensup Yıldız Han soyundan geldikleri düşünülmektedir. Ayrıca hâlen Tatar mahallesi adıyla geçen Tatarlar'ın Ankara savaşında Türk-Moğol hükümdarı Timur'un yanında savaştıkları (kayıtlara göre sarışın, mavi gözlü ve iyi ok atan) kimseler ve savaşı seyrinde çok önemli rol aldıkları belgelenmektedir. Çanakkale ve Kurtuluş savaşlarında köyden pek çok şehit verilmiştir. Meçhul asker kayıtlarında bunlardan birkaçına ulaşılmıştır.
+          Mahallenin adını da alan 8 km uzunluğunda Kıbrıs Vadisi 1. derece doğal ve arkeolojik sit alanı özelliklerine sahiptir.
+          Ankara iline 15 km, Mamak ilçesine 10 km uzaklıktadır.</p>
+        <span>
+          <a href="http://www.mamak.gov.tr/kibris-koyu-tanitim#">Hakkımızda</a>
+
+    
+          <a href="tel: +90 533 391 25 46" style="margin-left: 16px; background-color: rgb(235, 225, 44);">Şimdi Ara</a>
+        </span>
+      </div>
+
+      <ul class="social">
+        <li><a href="https://www.facebook.com/profile.php?id=100082042241444"><img src="background/facebook.png" alt="facebok_img"></a></li>
+        &nbsp;
+        &nbsp;
+        <li><a href="#"><img src="background/twitter.png" alt="twitter_img"></a></li>
+        <li><a href="https://www.instagram.com/kibriskoyluleridernegi/"><img src="background/instagram.png" alt="instagram_img"></a></li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="#">Duyurular</a></li>
+        <li><a href="index2.html">Kıbrıs S.K.</a></li>
+        <li><a href="#">Degerlerimiz</a></li>
+        <li><a href="http://www.mamak.gov.tr/kibris-koyu-tanitim#">Hakkımızda</a></li>
+        <li><a href="iletişim/index.html">İletişim</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+      })
+    </script>
+  </body>
+</html>
